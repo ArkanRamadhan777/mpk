@@ -3,7 +3,10 @@ import { ImageIcon } from 'lucide-react'
 
 const sectionVariant = {
   hidden: { opacity: 0 },
-  show: { transition: { staggerChildren: 0.08, delayChildren: 0.05 } },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.08, delayChildren: 0.05 },
+  },
 }
 
 const fadeUp = {
